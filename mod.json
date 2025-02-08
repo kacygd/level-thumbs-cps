@@ -6,11 +6,11 @@
         "mac": "2.2074"
     },
     "version": "v1.2.1",
-    "id": "cdc.level_thumbnails",
-    "name": "Level Thumbnails",
+    "id": "cps.level_thumbnails",
+    "name": "CPS Level Thumbnails",
     "developer": "cdc",
     "links":{
-        "community": "https://discord.gg/GuagJDsqds",
+        "community": "https://discord.gg/eZcynVMhrF",
         "source": "https://github.com/cdc-sys/level-thumbs-mod"
     },
     "description": "Adds thumbnails to levels in search.",
@@ -56,12 +56,12 @@
             "default":false
         },
         "level-thumbnails-url": {
-            "name": "Level Thumbnails url",
+            "name": "CPS Level Thumbnails Url",
             "description": "This is the url where the mod will fetch the thumbnails. Leave default for original.",
             "type": "string",
             "match": "(http|https):\\/\\/([\\w_-]+(?:(?:\\.[\\w_-]+)+))([\\w.,@?^=%&:\\/~+#-]*[\\w@?^=%&\\/~+#-])",
             "filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:.-_/",
-            "default": "https://raw.githubusercontent.com/cdc-sys/level-thumbnails/main/thumbs"
+            "default": "https://cdn.jsdelivr.net/gh/kacygd/cps-thumbnails@main/thumbs"
         }
     },
 
