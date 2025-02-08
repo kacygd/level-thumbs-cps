@@ -7,7 +7,7 @@ int levelthumbs::getQualityMultiplier(){
     return 4 / CCDirector::sharedDirector()->getContentScaleFactor();
 }
 
-std::string levelthumbs::getBaseUrl(){
-    std::string baseURL = Mod::get()->getSettingValue<std::string>("level-thumbnails-url");
+std::string levelthumbs::getBaseUrl() {
+    std::string baseURL = "https://cdn.jsdelivr.net/gh/kacygd/cps-thumbnails@main/thumbs";
     return baseURL;
 }
