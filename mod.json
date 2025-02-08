@@ -54,14 +54,6 @@
             "description": "<cr>HEAVILY WIP, EXPECT ISSUES.</c>",
             "type":"bool",
             "default":false
-        },
-        "level-thumbnails-url": {
-            "name": "CPS Level Thumbnails Url",
-            "description": "This is the url where the mod will fetch the thumbnails. Leave default for original.",
-            "type": "string",
-            "match": "(http|https):\\/\\/([\\w_-]+(?:(?:\\.[\\w_-]+)+))([\\w.,@?^=%&:\\/~+#-]*[\\w@?^=%&\\/~+#-])",
-            "filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:.-_/",
-            "default": "https://cdn.jsdelivr.net/gh/kacygd/cps-thumbnails@main/thumbs"
         }
     },
 
