@@ -8,6 +8,6 @@ int levelthumbs::getQualityMultiplier(){
 }
 
 std::string levelthumbs::getBaseUrl() {
-    std::string baseURL = "https://cdn.jsdelivr.net/gh/kacygd/cps-thumbnails@main/thumbs";
+    std::string baseURL = "https://cps.ps.fhgdps.com/v1/thumbs";
     return baseURL;
 }
