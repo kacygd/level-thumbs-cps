@@ -7,11 +7,11 @@
         "ios": "2.2074"
     },
     "version": "v1.3.0",
-    "id": "cdc.level_thumbnails",
-    "name": "Level Thumbnails",
+    "id": "cps.level_thumbnails",
+    "name": "CPS Level Thumbnails",
     "developer": "cdc",
     "links":{
-        "community": "https://discord.gg/GuagJDsqds",
+        "community": "https://discord.gg/eZcynVMhrF",
         "source": "https://github.com/cdc-sys/level-thumbs-mod"
     },
     "description": "Adds thumbnails to levels in search.",
@@ -55,14 +55,6 @@
             "description": "<cr>HEAVILY WIP, EXPECT ISSUES.</c>",
             "type":"bool",
             "default":false
-        },
-        "level-thumbnails-url": {
-            "name": "Level Thumbnails url",
-            "description": "This is the url where the mod will fetch the thumbnails. Leave default for original.",
-            "type": "string",
-            "match": "(http|https):\\/\\/([\\w_-]+(?:(?:\\.[\\w_-]+)+))([\\w.,@?^=%&:\\/~+#-]*[\\w@?^=%&\\/~+#-])",
-            "filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ:.-_/",
-            "default": "https://raw.githubusercontent.com/cdc-sys/level-thumbnails/main/thumbs"
         },
         "level-bg":{
             "name":"Level BG",
